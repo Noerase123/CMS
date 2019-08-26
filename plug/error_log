@@ -1,0 +1,35 @@
+[29-Oct-2014 07:37:09 UTC] PHP Warning:  imagecreatefrompng(): gd-png:  fatal libpng error: Read Error: truncated data in /home/asian/public_html/acms/plug/timthumb.php on line 1089
+[29-Oct-2014 07:37:09 UTC] PHP Warning:  imagecreatefrompng(): gd-png error: setjmp returns error condition in /home/asian/public_html/acms/plug/timthumb.php on line 1089
+[29-Oct-2014 07:37:09 UTC] PHP Warning:  imagecreatefrompng(): '/home/asian/public_html/uploads/hotels/141456817463314800.png' is not a valid PNG file in /home/asian/public_html/acms/plug/timthumb.php on line 1089
+[29-Oct-2014 07:37:09 UTC] PHP Warning:  imagealphablending() expects parameter 1 to be resource, boolean given in /home/asian/public_html/acms/plug/timthumb.php on line 1090
+[29-Oct-2014 07:37:09 UTC] PHP Warning:  imagesavealpha() expects parameter 1 to be resource, boolean given in /home/asian/public_html/acms/plug/timthumb.php on line 1091
+[29-Oct-2014 07:37:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/asian/public_html/acms/plug/timthumb.php:1089) in /home/asian/public_html/acms/plug/timthumb.php on line 418
+[29-Oct-2014 07:37:09 UTC] PHP Warning:  imagecreatefrompng(): gd-png:  fatal libpng error: Read Error: truncated data in /home/asian/public_html/acms/plug/timthumb.php on line 1089
+[29-Oct-2014 07:37:09 UTC] PHP Warning:  imagecreatefrompng(): gd-png error: setjmp returns error condition in /home/asian/public_html/acms/plug/timthumb.php on line 1089
+[29-Oct-2014 07:37:09 UTC] PHP Warning:  imagecreatefrompng(): '/home/asian/public_html/uploads/rooms/88hotspring/141456817718961100.png' is not a valid PNG file in /home/asian/public_html/acms/plug/timthumb.php on line 1089
+[29-Oct-2014 07:37:09 UTC] PHP Warning:  imagealphablending() expects parameter 1 to be resource, boolean given in /home/asian/public_html/acms/plug/timthumb.php on line 1090
+[29-Oct-2014 07:37:09 UTC] PHP Warning:  imagesavealpha() expects parameter 1 to be resource, boolean given in /home/asian/public_html/acms/plug/timthumb.php on line 1091
+[29-Oct-2014 07:37:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/asian/public_html/acms/plug/timthumb.php:1089) in /home/asian/public_html/acms/plug/timthumb.php on line 418
+[14-Nov-2014 03:43:14 UTC] PHP Warning:  imagecreatefrompng(): gd-png:  fatal libpng error: Read Error: truncated data in /home/asian/public_html/acms/plug/timthumb.php on line 1089
+[14-Nov-2014 03:43:14 UTC] PHP Warning:  imagecreatefrompng(): gd-png error: setjmp returns error condition in /home/asian/public_html/acms/plug/timthumb.php on line 1089
+[14-Nov-2014 03:43:14 UTC] PHP Warning:  imagecreatefrompng(): '/home/asian/public_html/uploads/hotels/141456817463314800.png' is not a valid PNG file in /home/asian/public_html/acms/plug/timthumb.php on line 1089
+[14-Nov-2014 03:43:14 UTC] PHP Warning:  imagealphablending() expects parameter 1 to be resource, boolean given in /home/asian/public_html/acms/plug/timthumb.php on line 1090
+[14-Nov-2014 03:43:14 UTC] PHP Warning:  imagesavealpha() expects parameter 1 to be resource, boolean given in /home/asian/public_html/acms/plug/timthumb.php on line 1091
+[14-Nov-2014 03:43:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/asian/public_html/acms/plug/timthumb.php:1089) in /home/asian/public_html/acms/plug/timthumb.php on line 418
+[14-Nov-2014 03:57:15 UTC] PHP Warning:  imagecreatefrompng(): gd-png:  fatal libpng error: Read Error: truncated data in /home/asian/public_html/acms/plug/timthumb.php on line 1089
+[14-Nov-2014 03:57:15 UTC] PHP Warning:  imagecreatefrompng(): gd-png error: setjmp returns error condition in /home/asian/public_html/acms/plug/timthumb.php on line 1089
+[14-Nov-2014 03:57:15 UTC] PHP Warning:  imagecreatefrompng(): '/home/asian/public_html/uploads/hotels/141456817463314800.png' is not a valid PNG file in /home/asian/public_html/acms/plug/timthumb.php on line 1089
+[14-Nov-2014 03:57:15 UTC] PHP Warning:  imagealphablending() expects parameter 1 to be resource, boolean given in /home/asian/public_html/acms/plug/timthumb.php on line 1090
+[14-Nov-2014 03:57:15 UTC] PHP Warning:  imagesavealpha() expects parameter 1 to be resource, boolean given in /home/asian/public_html/acms/plug/timthumb.php on line 1091
+[14-Nov-2014 03:57:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/asian/public_html/acms/plug/timthumb.php:1089) in /home/asian/public_html/acms/plug/timthumb.php on line 418
+[13-Apr-2015 09:35:46 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 51024 bytes) in /home/asian/public_html/acms/plug/timthumb.php on line 1085
+[13-Apr-2015 09:38:06 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 51024 bytes) in /home/asian/public_html/acms/plug/timthumb.php on line 1085
+[13-Apr-2015 09:42:18 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 51024 bytes) in /home/asian/public_html/acms/plug/timthumb.php on line 1085
+[13-Apr-2015 09:46:40 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 51024 bytes) in /home/asian/public_html/acms/plug/timthumb.php on line 1085
+[13-Apr-2015 09:50:05 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 51024 bytes) in /home/asian/public_html/acms/plug/timthumb.php on line 1085
+[24-Apr-2015 04:16:26 UTC] PHP Warning:  imagecreatefrompng(): gd-png:  fatal libpng error: Read Error: truncated data in /home/asian/public_html/acms/plug/timthumb.php on line 1089
+[24-Apr-2015 04:16:26 UTC] PHP Warning:  imagecreatefrompng(): gd-png error: setjmp returns error condition in /home/asian/public_html/acms/plug/timthumb.php on line 1089
+[24-Apr-2015 04:16:26 UTC] PHP Warning:  imagecreatefrompng(): '/home/asian/public_html/uploads/hotels/141456817463314800.png' is not a valid PNG file in /home/asian/public_html/acms/plug/timthumb.php on line 1089
+[24-Apr-2015 04:16:26 UTC] PHP Warning:  imagealphablending() expects parameter 1 to be resource, boolean given in /home/asian/public_html/acms/plug/timthumb.php on line 1090
+[24-Apr-2015 04:16:26 UTC] PHP Warning:  imagesavealpha() expects parameter 1 to be resource, boolean given in /home/asian/public_html/acms/plug/timthumb.php on line 1091
+[24-Apr-2015 04:16:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/asian/public_html/acms/plug/timthumb.php:1089) in /home/asian/public_html/acms/plug/timthumb.php on line 418

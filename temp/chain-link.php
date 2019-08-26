@@ -1,0 +1,1 @@
+<ol class="breadcrumb"><?phpecho $chain_link;?></ol>

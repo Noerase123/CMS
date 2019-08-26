@@ -1,0 +1,676 @@
+/*
+  MODDED BOOTSTRAP STYLES
+  CREATED BY HACHWAN
+
+  VERSION 1.2.0
+*/
+
+/*******************************\ 
+    Global modified styles 
+\*******************************/
+label{font-weight: normal;}
+table tr th,table tr td{padding: 10px}
+body{line-height: 1.6;}
+
+/*******************************\ 
+  IMPORTANT! Most commonly used 
+\*******************************/
+.full-width{width: 100%;}
+.half-width{width: 50%;}
+.max-width{max-width: 100%;}
+.auto-width{width: auto;}
+.center{display: block;margin: auto;}
+.no-border{border: none !important;}
+.no-curve {-webkit-border-radius: 0 !important;-moz-border-radius: 0 !important;border-radius: 0 !important;}
+
+/*******************************\ 
+            Spacing 
+\*******************************/
+/*.gap{height: 20px;width: 100%}*/
+.gap-sm{height: 10px;width: 100%}
+/*.gap-md{height: 40px;width: 100%}
+.gap-lg{height: 80px;width: 100%}*/
+
+/*******************************\ 
+   Path Fix for Doli's folder 
+\*******************************/
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../static/fonts/glyphicons-halflings-regular.eot');
+  src: url('../static/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../static/fonts/glyphicons-halflings-regular.woff') format('woff'), url('../static/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../static/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+
+/*******************************\ 
+       Quick font styling 
+\*******************************/
+.thin{font-weight: 300;}
+.bold{font-weight: 700;}
+.black{font-weight: 900;}
+.italic{font-style: italic;}
+.capital{text-transform: uppercase;}
+
+/*******************************\  
+    Alert texts with bootstrap 
+\*******************************/
+.alert-danger-p{color: #b94a48;font-size: 12px}
+.alert-warning-p{color: #c09853;font-size: 12px}
+.alert-info-p{color: #3a87ad;font-size: 12px}
+.alert-success-p{color:#468847;font-size: 12px}
+
+/*******************************\  
+  Ellipsis styling. DONT TOUCH! 
+\*******************************/
+.ellipsis {white-space: nowrap;overflow: hidden;}
+.ellipsis.multiline {white-space: normal;}
+
+/**************************************************\   
+ Enable animations on all hover interactive objects 
+\**************************************************/
+.animate, a, button{transition: all 0.3s ease;}
+.animate:hover, a:hover, button:hover{transition: all 0.3s ease;}
+
+/*******************************\ 
+        Button on disabled 
+\*******************************/
+button:disabled, button:disabled:hover, input:disabled, input:disabled:hover{color: #bbb;background-color: #eee;}
+
+/*******************************\ 
+      For background images 
+\*******************************/
+.bg-full,.bg-cover{-ms-behavior: url('backgroundsize.min.htc');background-size: cover;}/* IE problem fix (for that .htc file) */
+.bg-contain{background-size: contain;}
+.bg-center{background-position: center center;}
+
+/*******************************\ 
+          Box Shadows 
+\*******************************/
+.shadow{-webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,.1);
+box-shadow: 0 0 5px 0 rgba(0,0,0,.31;)}
+
+/*******************************\ 
+       <select> in forms 
+\*******************************/
+div.styled{
+background: white url('../static/images/formelements-select.png') no-repeat center right;
+border-radius:2px; 
+border: solid 1px #ccc; 
+overflow:hidden;
+padding:0.4em;
+width:100%; 
+} 
+
+div.styled select { 
+width:115%;
+background-color:transparent;
+background-image:none;
+-webkit-appearance: none;
+border:none;
+box-shadow:none;
+}
+
+/*******************************\
+    Form on white background
+\*******************************/
+.form-on-white input, .form-on-white textarea{background-color: #eee;border: none;line-height: 1}
+.form-on-white input:focus, .form-on-white textarea:focus{box-shadow:none;border: none !important;background-color: #dedede}
+.form-on-white input[type="submit"]{background-color: #222;color: #fff;}
+.form-on-white input[type="submit"]:hover{background-color: #666}
+
+/***********************************************************\ 
+ To avoid datepicker from being overlapped by other elements 
+\***********************************************************/
+.datepicker{z-index:1151 !important;}
+
+/**************************************\
+ Remove that subtle line from accordion
+\**************************************/
+.panel-white .panel{outline: 3px solid #fff}
+
+/*************************** CONTAINER SPACE STYLING ***************************/
+/*******************************\
+    2 directions margin killer 
+\*******************************/
+.nomargin-horz{margin-left: 0 !important;margin-right: 0 !important;}
+.nomargin-vert{margin-top: 0 !important;margin-bottom: 0 !important;}
+
+/*******************************\
+specific direction margin killer
+\*******************************/
+.nomargin-right{margin-right: 0 !important;}
+.nomargin-left{margin-left: 0 !important;}
+.nomargin-top{margin-top: 0 !important;}
+.nomargin-bottom{margin-bottom: 0 !important;}
+
+/*******************************\ 
+  2 directions padding killer 
+\*******************************/
+.nopadding-horz{padding-left: 0 !important;padding-right: 0 !important;}
+.nopadding-vert{padding-top: 0 !important;padding-bottom: 0 !important;}
+
+/**********************************\ 
+ specific directions padding killer 
+\**********************************/
+.nopadding-right{padding-right: 0 !important;}
+.nopadding-left{padding-left: 0 !important;}
+.nopadding-top{padding-top: 0 !important;}
+.nopadding-bottom{padding-bottom: 0 !important;}
+
+/*******************************\ 
+        vertical padding 
+\*******************************/
+.container-padding{padding-bottom: 20px;padding-top: 20px;}
+.container-padding-mini{padding-bottom: 10px;padding-top: 10px;}
+.container-padding-large{padding-bottom: 40px;padding-top: 40px;}
+.container-padding-xlarge{padding-bottom: 80px;padding-top: 80px;}
+
+/*******************************\ 
+        overall padding
+\*******************************/
+.padding-square{padding: 20px;}
+.padding-square-mini{padding: 10px;}
+
+
+/***************************\
+         NAVBAR MODS
+\***************************/
+.navbar-toggle.pull-left{margin-right: 0;margin-left: 15px;}
+
+
+/***************************\
+     SPRITE STANDARD CSS
+\***************************/
+.sprite{background-position: top left;background-repeat: no-repeat;}
+
+
+/*************************** CAROUSEL MODS ***************************/
+/* Ignore this if you are using Swiper Slider */
+/* By default, bootstrap have this dark gradient at the sides of its carousel */
+.carousel-control.right, .carousel-control.left{background-image: none;}
+
+
+
+/***************************\
+     ALERT MESSAGE MODS
+\***************************/
+.alert-danger,
+.alert-warning,
+.alert-info,
+.alert-success{
+  border-radius: 5px;
+}
+
+.alert-danger{border: 1px solid #b94a48;}
+.alert-warning{border: 1px solid #c09853;}
+.alert-info{border: 1px solid #3a87ad;}
+.alert-success{border: 1px solid #468847;}
+
+
+
+/***************************\
+  BEGIN MULTILINE DROPDOWN 
+\***************************/
+.dropdown-multiline a{background-color: #f2f2f2 !important;color: #4d4d4d;margin-bottom: 20px;padding: 10px;}
+.dropdown-multiline a.btn-select3{background: url('../static/images/formelements-select.png') center right no-repeat;border: solid 1px #ccc;padding: 0.4em 10px;}
+.dropdown-multiline .dropdown-menu{height: 200px;overflow: auto;}
+.dropdown-multiline .dropdown-menu a{margin-bottom: 0;}
+.dropdown-multiline .dropdown-menu a:hover{background-color: #1b75ba !important;color: #fff !important;}
+.dropdown-multiline .dropdown-menu a:hover h3{color: #fff;font-size: 16px;}
+.dropdown-multiline .dropdown-menu a h3{font-size: 16px;font-weight: bold;}
+.dropdown-multiline .dropdown-menu{padding: 0;margin-top: -20px;width: 560px}
+.dropdown-multiline .dropdown-menu li{border-bottom: 1px solid #ccc}
+.dropdown-multiline .dropdown-menu p{margin-bottom: 0;font-size: 14px}
+
+
+
+/***************************\
+      PAGINATION NAV
+\***************************/
+.pagination-nav a {padding: 5px 10px;color: #999;margin: 3px;font-weight: 300;background-color: #ddd;}/* optional */
+.pagination-nav a:hover {text-decoration: none;background-color: #ccc;}/* optional */
+.pagination-nav a.selected:hover{cursor: default;}
+.pagination-nav a.arrow:hover{background-color: #ddd;cursor: default;}
+
+.pagination-nav a.selected {color: #fff;background-color: #428bca;}/* Customize here */
+.pagination-nav a.selected.arrow:hover {cursor: pointer;background-color: #00ADEE;}/* Customize here */
+
+
+
+/***************************\
+         GRADIENTS 
+\***************************/
+.gradient-black{background: rgb(69,72,77); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(69,72,77,1)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+
+.gradient-green{background: rgb(143,200,0); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(143,200,0,1) 0%, rgba(97,150,0,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(143,200,0,1)), color-stop(100%,rgba(97,150,0,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(143,200,0,1) 0%,rgba(97,150,0,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(143,200,0,1) 0%,rgba(97,150,0,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(143,200,0,1) 0%,rgba(97,150,0,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(143,200,0,1) 0%,rgba(97,150,0,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8fc800', endColorstr='#619600',GradientType=0 ); /* IE6-9 */
+
+}
+
+.gradient-orange{
+  background: rgb(255,175,75); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,175,75,1)), color-stop(100%,rgba(255,146,10,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,175,75,1) 0%,rgba(255,146,10,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,175,75,1) 0%,rgba(255,146,10,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,175,75,1) 0%,rgba(255,146,10,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,175,75,1) 0%,rgba(255,146,10,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaf4b', endColorstr='#ff920a',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+
+/***************************\ 
+         RECAPTCHA 
+\***************************/
+.recaptcha label{text-indent: 0}
+.recaptcha input[type="text"]{padding: 0;background-color: #fff !important;margin-bottom: 0}
+.recaptcha .recaptcha_widget{max-width: 350px;}
+.recaptcha .recaptcha_options{padding: 5px 0 5px 10px;overflow: hidden;height: auto;}
+.recaptcha.recaptcha-theme-white .recaptcha_widget{border: 4px solid #dfdfdf !important;background: #dfdfdf !important}
+.recaptcha.recaptcha-theme-white .recaptcha_input{background: #fff !important; border: 4px solid #fff}
+.recaptcha.recaptcha-theme-white input[type="text"]{border: 1px solid #000}
+.recaptcha.recaptcha-theme-white .recaptcha_options li a{text-shadow:none;color:#aaa;}
+.recaptcha.recaptcha-theme-white .recaptcha_options li a:hover{color: #666}
+
+
+
+/*****************************************\ 
+ MINI VIEWPORTS (FOR MOBILE PORTRAIT VIEW)
+\*****************************************/
+.hidden-xxs{display: block !important;}
+.visible-xxs{display: none !important;}
+.visible-xxs-inline{display: none !important;}
+.visible-xxs-land-inline{display: none !important;}
+
+/***************************\ 
+     RESPONSIVE DIV BOX
+\***************************/
+.resp-div{position: relative;overflow: hidden;}
+.resp-div:before{content: "";display: block;}
+
+/* 1:1 Ratio */
+.resp-div.r1-1{padding-top: 100%;}
+/* 4:3 Ratio */
+.resp-div.r4-3{padding-top: 75%;}
+/* 16:9 Ratio */
+.resp-div.r16-9{padding-top: 56.25%;}
+
+/***************************\ 
+     VERTICAL CENTERING
+\***************************/
+.content-middle{position:  absolute;top: 0;left: 0;bottom: 0;right: 0;}
+.content-middle div.vert-middle {display: table;width: 100%;height: 100%;}
+.content-middle span.vert-middle {display: table-cell;text-align: center;vertical-align: middle;}
+
+/*footer{margin-top: 40px;}*/
+
+/*************************** TABLET AND ABOVE ***************************/
+@media (min-width:768px){
+  .steps-content .col-sm-10 .clear-text{right:41% !important;}
+}
+
+
+
+/*************************** TABLET AND BELOW ***************************/
+@media (max-width: 991px) {
+  .navbar-brand img{width: 180px}
+  .navbar-collapse{padding-top: 14px;}
+  .navbar-nav > li > .dropdown-menu {margin-top: 11px;}
+}
+
+
+
+/*************************** PHONE AND BELOW ***************************/
+@media (max-width: 767px) {
+  h1{font-size: 26px;}
+  h2{font-size: 24px;}
+  h3{font-size: 20px;}
+  h4{font-size: 18px;}
+  h5{font-size: 16px;}
+  h6{font-size: 12px;}
+
+	.hidden-xs-inline{display: none !important;}
+	.visible-xs-inline{display: inline !important;}
+
+  .full-width-xs{width: 100% !important;}
+  .half-width-xs{width: 50% !important;}
+  .no-pull-xs{float: none !important;}
+
+  .navbar-nav {margin-left: 0}
+  .navbar-collapse{padding-left: 0;}
+  .navbar-brand {font-size: 20px}
+
+  .text-center-xs{text-align: center;}
+
+  /*************************** CONTAINER SPACE STYLING ***************************/
+/*******************************\
+    2 directions margin killer 
+\*******************************/
+.nomargin-horz-xs{margin-left: 0 !important;margin-right: 0 !important;}
+.nomargin-vert-xs{margin-top: 0 !important;margin-bottom: 0 !important;}
+
+/*******************************\
+specific direction margin killer
+\*******************************/
+.nomargin-right-xs{margin-right: 0 !important;}
+.nomargin-left-xs{margin-left: 0 !important;}
+.nomargin-top-xs{margin-top: 0 !important;}
+.nomargin-bottom-xs{margin-bottom: 0 !important;}
+
+/*******************************\ 
+  2 directions padding killer 
+\*******************************/
+.nopadding-horz-xs{padding-left: 0 !important;padding-right: 0 !important;}
+.nopadding-vert-xs{padding-top: 0 !important;padding-bottom: 0 !important;}
+
+/**********************************\ 
+ specific directions padding killer 
+\**********************************/
+.nopadding-right-xs{padding-right: 0 !important;}
+.nopadding-left-xs{padding-left: 0 !important;}
+.nopadding-top-xs{padding-top: 0 !important;}
+.nopadding-bottom-xs{padding-bottom: 0 !important;}
+
+/*******************************\ 
+        vertical padding 
+\*******************************/
+.container-padding-xs{padding-bottom: 20px;padding-top: 20px;}
+.container-padding-mini-xs{padding-bottom: 10px;padding-top: 10px;}
+.container-padding-large-xs{padding-bottom: 40px;padding-top: 40px;}
+.container-padding-xlarge-xs{padding-bottom: 80px;padding-top: 80px;}
+
+/*******************************\ 
+        overall padding
+\*******************************/
+.padding-square-xs{padding: 20px;}
+.padding-square-mini-xs{padding: 10px;}
+}
+
+
+
+/*************************** PHONE LANDSCAPE ***************************/
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  /*{width: 48.5%;margin: 3px;float: left;}*/
+  .visible-xxs-land{display: block !important;}
+  .hidden-xxs-land{display: none !important;}
+  .visible-xxs-land-inline{display: inline-block !important;}
+  }
+
+
+
+/*************************** PHONE PORTRAIT ***************************/
+@media only screen and (max-width: 480px){
+	.hidden-xxs{display: none !important;}
+	.visible-xxs{display: block !important;}
+  .visible-xxs-inline{display: inline-block;}
+
+  .col-xxs-6{width: 50%}
+  .col-xxs-12{width: 100%;}
+}
+
+
+/*************************** BOOTSTRAP 5 COLUMNS ***************************/
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+
+.color-green{
+	color:#5cb85c;
+}
+.color-red{
+	color:#d9534f;
+}
+.enable-disable-btn{
+	cursor : pointer;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+.info-preloader{
+
+	position	: fixed;
+
+	top			: 0;
+
+	left		: 0;
+
+	height		: 100%;
+
+	width		: 100%;
+
+	z-index		: 999999999999;
+
+	background	: rgba(255,255,255,1);
+	
+	display		: none;
+
+}
+
+.process-logo{
+
+	width		: 100%;
+
+	margin		: 0 auto;
+
+	height		: 100%;
+	
+	background	: url("../img/asian-cities-logo.png") center center no-repeat;
+	
+	
+}
+
+.progress {
+  position: relative;
+  height: 15px;
+  display: block;
+  width: 100%;
+  background-color: #dcd29e;
+  border-radius: 2px;
+  margin: 0;
+  overflow: hidden; 
+}
+.progress .determinate {
+
+position: absolute;
+background-color: inherit;
+top: 0;
+bottom: 0;
+
+
+/*
+background-color: #d5a424; 
+*/
+background: -webkit-linear-gradient(left, rgba(244,123,52,0), rgba(244,123,52,1), rgba(244,123,52,0)); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(right, rgba(244,123,52,0), rgba(244,123,52,1), rgba(244,123,52,0)); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(right, rgba(244,123,52,0), rgba(244,123,52,1), rgba(244,123,52,0)); /* For Firefox 3.6 to 15 */
+background: linear-gradient(to right, rgba(244,123,52,0), rgba(244,123,52,1), rgba(244,123,52,0)); /* Standard syntax (must be last) */
+
+-webkit-transition: width .3s linear;
+-moz-transition: width .3s linear;
+-o-transition: width .3s linear;
+-ms-transition: width .3s linear;
+transition: width .3s linear; 
+
+}
+.progress .indeterminate {
+/*
+background-color: #d5a424; 
+*/
+background: -webkit-linear-gradient(left, rgba(244,123,52,0), rgba(244,123,52,1), rgba(244,123,52,0)); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(right, rgba(244,123,52,0), rgba(244,123,52,1), rgba(244,123,52,0)); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(right, rgba(244,123,52,0), rgba(244,123,52,1), rgba(244,123,52,0)); /* For Firefox 3.6 to 15 */
+background: linear-gradient(to right, rgba(244,123,52,0), rgba(244,123,52,1), rgba(244,123,52,0)); /* Standard syntax (must be last) */
+
+}
+.progress .indeterminate:before {
+  content: '';
+  position: absolute;
+  background-color: inherit;
+  background: inherit;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  will-change: left, right;
+  -webkit-animation: indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite;
+  -moz-animation: indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite;
+  -ms-animation: indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite;
+  -o-animation: indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite;
+  animation: indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite; }
+.progress .indeterminate:after {
+  content: '';
+  position: absolute;
+  background-color: inherit;
+  background: inherit;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  will-change: left, right;
+  -webkit-animation: indeterminate-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
+  -moz-animation: indeterminate-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
+  -ms-animation: indeterminate-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
+  -o-animation: indeterminate-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
+  animation: indeterminate-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
+  -webkit-animation-delay: 1.15s;
+  -moz-animation-delay: 1.15s;
+  -ms-animation-delay: 1.15s;
+  -o-animation-delay: 1.15s;
+  animation-delay: 1.15s; 
+}
+	  
+@-webkit-keyframes indeterminate {
+  0% {
+    left: -35%;
+    right: 100%; }
+
+  60% {
+    left: 100%;
+    right: -90%; }
+
+  100% {
+    left: 100%;
+    right: -90%; } 
+}
+
+@-moz-keyframes indeterminate {
+  0% {
+    left: -35%;
+    right: 100%; }
+
+  60% {
+    left: 100%;
+    right: -90%; }
+
+  100% {
+    left: 100%;
+    right: -90%; } 
+}
+
+@keyframes indeterminate {
+  0% {
+    left: -35%;
+    right: 100%; }
+
+  60% {
+    left: 100%;
+    right: -90%; }
+
+  100% {
+    left: 100%;
+    right: -90%; } 
+}
+
+@-webkit-keyframes indeterminate-short {
+  0% {
+    left: -200%;
+    right: 100%; }
+
+  60% {
+    left: 107%;
+    right: -8%; }
+
+  100% {
+    left: 107%;
+    right: -8%; } 
+}
+
+@-moz-keyframes indeterminate-short {
+  0% {
+    left: -200%;
+    right: 100%; }
+
+  60% {
+    left: 107%;
+    right: -8%; }
+
+  100% {
+    left: 107%;
+    right: -8%; } 
+}
+
+@keyframes indeterminate-short {
+  0% {
+    left: -200%;
+    right: 100%; }
+
+  60% {
+    left: 107%;
+    right: -8%; }
+
+  100% {
+    left: 107%;
+    right: -8%; } 
+}
